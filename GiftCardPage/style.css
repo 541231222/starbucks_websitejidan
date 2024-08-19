@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+:root {
+  --primary: #fff;
+  --bg: #fff;
+  --span: #ff3131;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  padding-top: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  color: var(--bg);
+  scroll-behavior: smooth;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: #fff;
+  box-shadow: 10px #010101;
+  border: 0.5px solid #010101;
+  position: fixed;
+  width: 120rem;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar .navbar-nav-first {
+  margin-left: -57rem;
+}
+
+.navbar .navbar-nav-first a {
+  display: inline-block;
+  margin: 0 1rem;
+  color: #010101;
+  font-size: 1.3rem;
+}
+
+.navbar .navbar-nav-first a:hover {
+  color: green;
+}
+
+.navbar .navbar-nav-second a {
+  display: inline-block;
+  margin: 0 1rem;
+  color: #010101;
+  font-size: 1.3rem;
+}
+
+.navbar .navbar-nav-second a:hover {
+  color: green;
+}
+
+
+
+.container {
+    margin-top: 10rem;
+    color: #010101;
+    margin-left: 2rem;
+}
+
+.container .row-card {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 12rem;
+}
+
+.container .row-card img {
+    border-radius: 30px;
+    margin-left: 5rem;
+}
+
+.container .row-card img:hover {
+  transform: scale(1.2);
+}

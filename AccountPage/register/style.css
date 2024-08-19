@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+:root {
+  --primary: #fff;
+  --bg: #fff;
+  --span: #ff3131;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  padding-top: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  color: var(--bg);
+  scroll-behavior: smooth;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: transparent;
+  box-shadow: 10px #010101;
+  border: 0.5px solid #010101;
+  position: fixed;
+  width: 130rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: -6rem;
+}
+
+.header {
+    text-align: center;
+    margin-top: 10rem;
+}
+.header h1 {
+    font-size: 2rem;
+    color: #010101;
+}
+
+.header h3 {
+    color: #010101;
+    margin-top: 2rem;
+    opacity: 0.6;
+}
+
+.header .info-row {
+    color: #010101;
+    opacity: 0.6;
+    width: 300px;
+    margin-left: 50rem;
+    margin-top: 1.2rem;
+}
+
+.login-box {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 500px;
+  height: 1000px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(5px);
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px #010101;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 20rem;
+}
+
+.login-box H1 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: var(--bg);
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 400px;
+  height: 30px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #010101;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #101010;
+  pointer-events: none;
+  transition: 0.5s;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  color: #fff;
+  opacity: 0.1;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #010101;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+

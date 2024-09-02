@@ -133,12 +133,25 @@ body {
   color: #010101;
 }
 
-.login-btn {
-  background-color: green;
-  text-align: center;
-  margin-left: 16rem;
-  border-radius: 30px;
-  height: 50px;
-  width: 10rem;
-  box-shadow: 5px 5px 5px #010101;
+.login-btn button[type="submit"] {
+  background-color: #4CAF50; /* Green background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Add some padding to make the button bigger */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Add a rounded corner effect */
+  cursor: pointer; /* Change the cursor to a pointing hand when hovering over the button */
+  font-size: 16px; /* Increase the font size */
+  font-weight: bold; /* Make the font bold */
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
 }
+
+.login-btn button[type="submit"]:hover {
+  background-color: #3e8e41; /* Change the background color to a darker green when hovering over the button */
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+} 

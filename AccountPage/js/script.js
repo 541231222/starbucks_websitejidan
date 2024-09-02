@@ -1,8 +1,8 @@
 document.getElementById('loginForm').addEventListener('submit', function(event){
     event.preventDefault();
 
-    const correctUsername = 'princess';
-    const correctPassword = 'princess';
+    const correctUsername = 'zidan';
+    const correctPassword = 'zidan';
 
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;

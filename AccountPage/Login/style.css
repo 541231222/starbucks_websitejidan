@@ -22,19 +22,14 @@ body {
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.4rem 7%;
-  background-color: transparent;
-  box-shadow: 10px #010101;
-  border: 0.5px solid #010101;
-  position: fixed;
-  width: 130rem;
+  position: fixed; /* Fix the navbar to the top of the page */
   top: 0;
   left: 0;
-  right: 0;
-  margin-left: -6rem;
+  width: 100%; /* Make the navbar full width */
+  background-color: #fff; /* Add a background color to the navbar */
+  padding: 1rem; /* Add some padding to the navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add a box-shadow effect to the navbar */
+  z-index: 1000; /* Make the navbar appear on top of other elements */
 }
 .login-box {
   position: absolute;

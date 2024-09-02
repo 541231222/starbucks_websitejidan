@@ -66,3 +66,25 @@ body {
   margin-left: 15rem;
   border-radius: 50px;
 }
+
+.logout-btn a {
+  background-color: #4CAF50; /* Green background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Add some padding to make the button bigger */
+  border: none; /* Remove the default border */
+  border-radius: 30px; /* Add a rounded corner effect */
+  cursor: pointer; /* Change the cursor to a pointing hand when hovering over the button */
+  font-size: 1rem; /* Increase the font size */
+  font-weight: bold; /* Make the font bold */
+  text-decoration: none; /* Remove the underline from the link */
+}
+
+.logout-btn a:hover {
+  background-color: #3e8e41; /* Change the background color to a darker green when hovering over the button */
+}
+
+.logout-link {
+  border: 1px solid #010100;
+  border-radius: 30px;
+  font-size: 1rem;
+}

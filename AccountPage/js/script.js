@@ -11,6 +11,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event){
         alert("login berhasil");
         window.location.href =  '/weblanding/succes.html';
     }else{
-        alert("username atau password tidak sesuai");
+        alert("salah bro");
     }
 });
